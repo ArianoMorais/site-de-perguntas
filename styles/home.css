@@ -1,0 +1,106 @@
+.Entre {
+  font-size: 2.8rem;
+  color: var(--black);
+  position: absolute;
+  font-weight: bold;
+  left: 100rem;
+  top: 13.1rem;
+  line-height: 4.2rem;
+}
+
+.Crie {
+  font-size: 2.8rem;
+  position: absolute;
+  color: var(--black);
+  left: 100rem;
+  top: 47rem;
+  width: 40rem;
+}
+
+.button-blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 10.6rem;
+  position: absolute;
+  font-size: 1.6rem;
+  width: 36rem;
+  height: 4.8rem;
+  left: 100rem;
+  top: 30.5rem;
+  border-radius: 0.8rem;
+  background-color: var(--blue);
+  color: #e5eaf1;
+}
+
+.caixa-codigo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.3rem, 1.2rem, 1.3rem, 1.6rem;
+  position: absolute;
+  width: 36rem;
+  height: 4.8rem;
+  left: 100rem;
+  top: 20.8rem;
+  border-radius: 0.8rem;
+  border: 0.2rem solid;
+  box-sizing: border-box;
+  border-color: var(--grey-blue);
+  text-align: left;
+  padding-left: 1.6rem;
+  outline: none;
+}
+.traco1 {
+  position: absolute;
+  width: 15.7rem;
+  border: 0.1rem solid var(--grey-blue);
+  left: 100rem;
+  top: 40.5rem;
+}
+
+.texto {
+  font-size: 1.6rem;
+  position: absolute;
+  font-family: poppins;
+  color: var(--grey-blue);
+  width: 2.1rem;
+  height: 2.4rem;
+  left: 117rem;
+  top: 39rem;
+}
+
+.traco2 {
+  position: absolute;
+  width: 15.7rem;
+  border: 0.1rem solid var(--grey-blue);
+  left: 120.36rem;
+  top: 40.6rem;
+}
+
+.criarsala {
+  padding-right: 1rem;
+}
+
+.img-home {
+  position: relative;
+  top: 6rem;
+  left: 0rem;
+}
+
+.container {
+  align-items: flex-end;
+}
+
+.circle1 {
+  left: 151rem;
+  top: 0rem;
+  position: absolute;
+}
+
+.circle2 {
+  left: 140rem;
+  position: absolute;
+  top: 81.5rem;
+}

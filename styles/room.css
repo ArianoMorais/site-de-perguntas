@@ -1,0 +1,235 @@
+.content {
+  width: 90%;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.button-outlined {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  border: solid 0.2rem var(--blue);
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  font-family: poppins;
+  color: var(--blue);
+}
+
+#room header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons {
+  display: flex;
+}
+
+#room header .buttons .button-outlined {
+  padding: 1.3rem 1.6rem;
+}
+
+.logoroom {
+  margin-left: 16rem;
+}
+
+.copy {
+  margin-left: 1rem;
+  width: 2rem;
+  right: 2rem;
+}
+
+.button-blue2 {
+  color: #e5eaf1;
+  background-color: var(--blue);
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1.3rem 3.2rem;
+  margin-left: 0.8rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+}
+
+#room header .buttons .button-blue2:nth-child(2) img {
+  width: 2rem;
+  right: 2rem;
+  margin-right: 1rem;
+}
+
+.sr-only {
+}
+
+#question-form {
+  margin-left: 16rem;
+}
+
+#question-form h2 {
+  font-family: 'poppins' sans-serif;
+  font-size: 2.8rem;
+  color: var(--black);
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  margin-top: 6.4rem;
+  line-height: 4.2rem;
+}
+#question-form form {
+  padding: 1.6rem;
+  border: 0.2rem solid var(--grey-blue);
+  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  font-family: Open-Sans;
+  font-size: 1.6rem;
+  color: var(--grey-blue);
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+#question-form textarea {
+  resize: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  height: 13rem;
+}
+
+#question-form form textarea::placeholder {
+  color: var(--grey-blue);
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#question-form form footer > div {
+  color: var(--incons);
+  font-family: 'poppins';
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+#question-form form footer img {
+  margin-right: 1rem;
+}
+#question-form form footer button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+  border-radius: 0.8rem;
+}
+
+/**** questions***/
+
+.question-wrapper {
+  background: var(--light-blue);
+  margin-bottom: 0.8rem;
+  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  margin-left: 16rem;
+  height: 13rem;
+  padding: 2.4rem;
+}
+
+.question {
+  font-family: open-sans;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+.question-wrapper .question-content .question p {
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  min-height: 5.5rem;
+}
+
+.question-wrapper .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.question-wrapper .actions > a {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  margin-right: 1.6rem;
+}
+
+.question-wrapper .question-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.question-wrapper .question-content .user {
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+
+.delete {
+  margin-left: 2.4rem;
+}
+
+.question {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--black);
+  line-height: 2.1rem;
+}
+
+.actions {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--hover-grey);
+  line-height: 2.1rem;
+  font-style: normal;
+}
+
+.actions img {
+  margin-right: 0.8rem;
+}
+
+/****  Question Read *****/
+
+.question-wrapper.read {
+  background: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content .user {
+  background: var(--grey-blue);
+}
+
+.button-blue3 {
+  color: #e5eaf1;
+  background-color: var(--blue);
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1.3rem 3.2rem;
+  margin-left: 0.8rem;
+  width: 15rem;
+}
+
+body {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+}
