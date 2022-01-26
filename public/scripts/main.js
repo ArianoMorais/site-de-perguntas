@@ -4,7 +4,7 @@ const modal = Modal()
 //pegar todos botoes com classe check
 
 const checkButtons = document.querySelectorAll('.actions a.check')
-//pegar qaundo o marvar como lido foi clicado
+//pegar quando o marvar como lido foi clicado
 
 checkButtons.forEach(button => {
   //adicionar a escuta
@@ -13,6 +13,3 @@ checkButtons.forEach(button => {
     modal.open()
   })
 })
-
-//abrir a modal
-modal.open()
